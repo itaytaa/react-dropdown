@@ -2,7 +2,7 @@ import React from 'react'
 import './DropdownItem.css'
 function DropdownItem(props) {
     return (
-        <li>
+        <li className="DropdownItem">
             <a href="/">{props.title}</a>
         </li>
     )

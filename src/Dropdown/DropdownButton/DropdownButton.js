@@ -3,7 +3,7 @@ import './DropdownButton.css'
 import { FaCaretDown } from "react-icons/fa";
 function DropdownButton(props){
     return (
-        <button onClick={props.onClick} className={props.isClicked?"focus":"" }>
+        <button className={props.isClicked?"DropdownBtn focus":"DropdownBtn"} onClick={props.onClick} >
             {props.children} <FaCaretDown/>
         </button>
     )

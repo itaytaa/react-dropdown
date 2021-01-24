@@ -1,21 +1,24 @@
-li {
+.DropdownItem{
     list-style: none;
     display: flex;
     align-items: center;
     padding-left: 10px;
     width: 188px;
     height: 40px;
-   
+    
 }
 
-li:hover {
-
+.DropdownItem:hover {
+    /* z-index: -1; */
 background: linear-gradient(0deg, rgba(226,226,230,1) 17%, rgba(255,255,255,1) 100%);
 }
 
 a {
+    /* z-index: -1; */
     line-height:40px;
     width:100%;
     text-decoration: none;
-    color: black
+    color: black;
+   
+
 }

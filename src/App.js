@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div className="App" >
-      <Dropdown buttonTitle="First Dropdown" itemsList={menuItems} />
-      <Dropdown buttonTitle="Second Dropdown" itemsList={menuItems2} />
+      <Dropdown itemsList={menuItems}>First Dropdown</Dropdown>
+      <Dropdown itemsList={menuItems2}>Second Dropdown</Dropdown>
     </div>
   );
 }

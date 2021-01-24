@@ -1,10 +1,11 @@
-ul {
+.DropdownMenu {
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(218, 217, 217);
     border-radius: 5px;
     width: 200px;
-    margin: 0px;
+    margin-top: 4px;
     padding: 0px;
     box-sizing: border-box;
+    z-index: 0;
 }
