@@ -1,0 +1,11 @@
+button{
+    /* position: absolute; */
+    margin: auto;
+background-color:#5f6771;
+border:0px;
+width:200px;
+height:40px;
+color:white;
+border-radius: 3px;
+font-size: 18px;
+}
