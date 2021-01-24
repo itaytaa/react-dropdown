@@ -1,7 +1,6 @@
 li {
     list-style: none;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding-left: 10px;
     width: 190px;
@@ -13,7 +12,6 @@ li:hover {
 }
 
 a {
-    /* width:200px; */
     text-decoration: none;
     color: black
 }
