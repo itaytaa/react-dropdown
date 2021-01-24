@@ -24,7 +24,7 @@ function Dropdown(props) {
 
     return (
         <div ref={drop}>
-            <DropdownButton onClick={toggleMenu}>{props.buttonTitle}</DropdownButton>
+            <DropdownButton onClick={toggleMenu} isClicked={showMenu}>{props.buttonTitle} </DropdownButton>
             {showMenu && <DropdownMenu itemsList={props.itemsList} />}
         </div>
     )
