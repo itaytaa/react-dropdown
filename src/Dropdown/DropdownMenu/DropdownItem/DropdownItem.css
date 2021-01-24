@@ -3,12 +3,14 @@ li {
     display: flex;
     align-items: center;
     padding-left: 10px;
-    width: 190px;
+    width: 188px;
     height: 40px;
+   
 }
 
 li:hover {
-    background-color: rgb(241, 241, 241);
+
+background: linear-gradient(0deg, rgba(226,226,230,1) 17%, rgba(255,255,255,1) 100%);
 }
 
 a {
