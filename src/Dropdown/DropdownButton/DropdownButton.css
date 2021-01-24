@@ -6,12 +6,12 @@
     color: white;
     border-radius: 3px;
     font-size: 18px;
-    /* z-index: 1; */
+   outline:0;
 }
 
 .DropdownBtn:hover {
     background-color: #545961;
-    /* z-index: 1; */
+
 }
 
 .focus {
