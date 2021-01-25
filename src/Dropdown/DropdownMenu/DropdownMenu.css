@@ -1,5 +1,7 @@
 .DropdownMenu {
+    position: absolute;
     display: flex;
+    background-color: #fff;
     flex-direction: column;
     border: 1px solid rgb(218, 217, 217);
     border-radius: 5px;

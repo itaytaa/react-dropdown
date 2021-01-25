@@ -1,4 +1,4 @@
-.DropdownBtn {
+.DropdownButton {
     background-color: #72777e;
     border: 0px;
     width: 200px;
@@ -7,9 +7,10 @@
     border-radius: 3px;
     font-size: 18px;
    outline:0;
+  
 }
 
-.DropdownBtn:hover {
+.DropdownButton:hover {
     background-color: #545961;
 
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './DropdownButton.css'
 import { FaCaretDown } from "react-icons/fa";
-function DropdownButton(props){
+import './DropdownButton.css'
+function DropdownButton(props) {
     return (
-        <button className={props.isClicked?"DropdownBtn focus":"DropdownBtn"} onClick={props.onClick} >
-            {props.children} <FaCaretDown/>
+        <button className={props.isClicked?"DropdownButton focus":"DropdownButton"} onClick={props.onClick} >
+            {props.children}<FaCaretDown/>
         </button>
     )
 }

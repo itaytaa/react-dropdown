@@ -1,9 +1,10 @@
 import React from 'react'
 import './DropdownItem.css'
 function DropdownItem(props) {
+
     return (
         <li className="DropdownItem">
-            <a href="/">{props.title}</a>
+          <a className="DropdownA" href={props.route}> {props.children}</a> 
         </li>
     )
 }
